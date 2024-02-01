@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-custom{
+    background-color: #000!important;
+}
+
+.background{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -1;
+}
+
+.background-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+}
+
+.msg-inicial{
+    padding: 2em;
+}
+
+.msg-inicial > h1{
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0em;
+    color: #FF640A;
+}
+
+.msg-inicial > h2{
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+}
+
+.youtube-container, .youtube-container-clientes{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.youtube-container > .embed-content, .youtube-container-clientes > .embed-content{
+    top:0;
+    left:0;
+    width:100%;
+    height:15rem;
+}
+.info-importante{
+    text-align: center;
+}
+
+.info-importante{
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.info-importante > h1{
+    text-align: center;
+    font-size: 3em;
+}
+.info-importante > h2{
+    text-align: center;
+    font-size: 1.6em;
+}
+.info-importante > h3{
+    text-align: center;
+    font-size: 2em;
+}
+
+.info-importante > h4{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.info-importante > h2 > b{
+    color: #FF640A;
+}
+
+.font-red{
+    color: #FF640A;
+}
+
+.head-form{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.head-form > h1{
+    color: #FF640A;
+    font-size: 2em;
+}
+.head-form > h2{
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+.head-form > h3{
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+.form-group > label{
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 1.3em;
+}
+.form-group > .form-control, .form-group > .form-select{
+    background-color: #212529;
+    border: 1px solid #818589;
+    color: whitesmoke;
+}
+.btn-enviar{
+    margin-top: 1em;
+    font-weight: 700;
+    background-color: #FF640A;
+    border-color: azure;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 0.5em 2em;
+}
+
+.footer-custom{
+    padding: 2em;
+    text-align: center;
+}
+
+.titulo-video{
+    font-size: 0.9em!important;
+    color: #FF640A;
+    text-align: center;
+}
+
+.redes-sociales > a{
+    color: whitesmoke!important;
+    text-decoration: none;
+}
+
+/* MARK: Modificaciones para scroll a secciones */
+.content-result-email{
+    height: 40em;
+}
+
+/* MARK: Fuente LemonMilk */
+@font-face {
+    font-family: LemonMilkLigth;
+    src: url(../font/LEMONMILK-Light.otf),url(../font/LEMONMILK-LightItalic.otf);
+}
+@font-face {
+    font-family: LemonMilkRegular;
+    src: url(../font/LEMONMILK-Regular.otf),url(../font/LEMONMILK-RegularItalic.otf);
+}
+@font-face {
+    font-family: LemonMilkMedium;
+    src: url(../font/LEMONMILK-Medium.otf),url(../font/LEMONMILK-MediumItalic.otf);
+}
+@font-face {
+    font-family: LemonMilkBold;
+    src: url(../font/LEMONMILK-Bold.otf),url(../font/LEMONMILK-BoldItalic.otf);
+}
+.lemon-milk-light{
+    font-family: "LemonMilkLigth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.lemon-milk-light-italic{
+    font-family: "LemonMilkLigth", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.lemon-milk-regular{
+    font-family: "LemonMilkRegular", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.lemon-milk-regulat-italic{
+    font-family: "LemonMilkRegular", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+.lemon-milk-medium{
+    font-family: "LemonMilkMedium", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.lemon-milk-medium-italic{
+    font-family: "LemonMilkMedium", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.lemon-milk-bold{
+    font-family: "LemonMilkBold", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.lemon-milk-bold-italic{
+    font-family: "LemonMilkBold", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* MARK: Fuente champagne-limousines */
+@font-face {
+    font-family: Champagne;
+    src: url(../font/Champagne-Limousines.ttf),url(../font/Champagne-LimousinesItalic.ttf);
+}
+@font-face {
+    font-family: ChampagneBold;
+    src: url(../font/Champagne-LimousinesBold.ttf),url(../font/Champagne-LimousinesBoldItalic.ttf);
+}
+.champagne-limousines{
+    font-family: "Champagne", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.champagne-limousines-italic{
+    font-family: "Champagne", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.champagne-limousines-bold{
+    font-family: "ChampagneBold", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.champagne-limousines-bold-italic{
+    font-family: "ChampagneBold", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* MARK: Estilos de web en PC */
+@media (min-width: 992px) {
+    .msg-inicial > h1 {
+        text-align: left;
+        font-size: 6rem;
+    }
+    .msg-inicial > h2 {
+        text-align: left;
+        font-size: 5rem;
+        margin-left: 1em;
+    }
+
+    .info-importante > h1{
+        text-align: left;
+        font-size: 4em;
+    }
+    .info-importante > h2{
+        text-align: left;
+        font-size: 3em;
+    }
+    .info-importante > h3{
+        text-align: left;
+        font-size: 2em;
+    }
+
+    .youtube-container{
+        padding-left: 20em;
+        padding-right: 20em;
+    }
+    
+    .youtube-container > .embed-content{
+        height:35rem;
+    }
+
+    .youtube-container-clientes{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .youtube-container-clientes > .embed-content{
+        height: 25rem;
+    }
+}
