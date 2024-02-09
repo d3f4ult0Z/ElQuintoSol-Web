@@ -71,6 +71,7 @@
                         <li>Campañas políticas</li>
                         <li>Consultorías</li>
                         <li>Fortalecimiento de imagen digital</li>
+                        <li>Podcast</li>
                     </ul>
                 </h4>
             </div>
@@ -119,6 +120,7 @@
                             <option value="Campañas políticas">Campañas políticas</option>
                             <option value="Consultorías">Consultorías</option>
                             <option value="Fortalecimiento de imagen digital">Fortalecimiento de imagen digital</option>
+                            <option value="Podcast">Podcast</option>
                         </select>
                     </div>
                     <div class="form-group">
